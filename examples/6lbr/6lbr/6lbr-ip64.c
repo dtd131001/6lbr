@@ -48,6 +48,7 @@
 #include "ip64-dhcpc.h"
 #include "ip64-eth.h"
 #include "ip64-addr.h"
+#include "6lbr-ip64.h"
 
 #if CONTIKI_TARGET_NATIVE
 extern void cetic_6lbr_save_ip(void);
