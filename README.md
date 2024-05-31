@@ -17,3 +17,12 @@ Find out more :
 * Documentation: http://github.com/cetic/6lbr/wiki
 * Contiki-NG: https://github.com/contiki-ng/contiki-ng
 * Contiki: http://www.contiki-os.org
+
+To build, you must also clone the contiki-ng-6lbr repo.
+
+Enter examples/6lbr directory and execute the following command: 
+
+`make WITH_CONTIKI=0 CONTIKI=<PATH_TO_CONTIKI-NG-6LBR_REPO> WERROR=0 all`
+
+`sudo make install`
+
